@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoClasses", "UnittestDemo.DemoClasses\DemoClasses\DemoClasses.csproj", "{D39D0E65-1150-46D9-84F3-8B6D0010FBC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FBE54EA-B6E7-4FFB-AE95-2DF0878A0D2F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnittestDemo.MoqTests", "UnittestDemo.Moq\UnittestDemo.MoqTests.csproj", "{8A2B68DA-B607-43D6-B9E5-37663F5C990D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D39D0E65-1150-46D9-84F3-8B6D0010FBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39D0E65-1150-46D9-84F3-8B6D0010FBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39D0E65-1150-46D9-84F3-8B6D0010FBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39D0E65-1150-46D9-84F3-8B6D0010FBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2B68DA-B607-43D6-B9E5-37663F5C990D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2B68DA-B607-43D6-B9E5-37663F5C990D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2B68DA-B607-43D6-B9E5-37663F5C990D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2B68DA-B607-43D6-B9E5-37663F5C990D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E50A03FD-319B-4FC4-8F49-616738C940F4}
+	EndGlobalSection
+EndGlobal

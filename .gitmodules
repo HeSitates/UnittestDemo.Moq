@@ -1,0 +1,3 @@
+[submodule "UnittestDemo.DemoClasses"]
+	path = UnittestDemo.DemoClasses
+	url = https://github.com/HeSitates/UnittestDemo.DemoClasses.git

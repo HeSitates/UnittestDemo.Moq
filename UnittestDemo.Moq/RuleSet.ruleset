@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="New Rule Set" Description=" " ToolsVersion="17.0">
+  <Rules AnalyzerId="StyleCop.CSharp.OrderingRules" RuleNamespace="StyleCop.CSharp.OrderingRules">
+    <Rule Id="SA1200" Action="None" />
+    <Rule Id="SA1204" Action="Error" />
+  </Rules>
+  <Rules AnalyzerId="StyleCop.CSharp.NamingRules" RuleNamespace="StyleCop.CSharp.NamingRules">
+    <Rule Id="SA1309" Action="Hidden" />
+  </Rules>
+  <Rules AnalyzerId="StyleCop.CSharp.ReadabilityRules" RuleNamespace="StyleCop.CSharp.ReadabilityRules">
+    <Rule Id="SA1500" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="nunit.analyzers" RuleNamespace="nunit.analyzers">
+    <Rule Id="NUnit2001" Action="Error" />
+    <Rule Id="NUnit2002" Action="Error" />
+    <Rule Id="NUnit2003" Action="Error" />
+    <Rule Id="NUnit2004" Action="Error" />
+    <Rule Id="NUnit2005" Action="Error" />
+    <Rule Id="NUnit2006" Action="Error" />
+    <Rule Id="NUnit2007" Action="Hidden" />
+    <Rule Id="NUnit2015" Action="Error" />
+    <Rule Id="NUnit2016" Action="Error" />
+    <Rule Id="NUnit2017" Action="Error" />
+    <Rule Id="NUnit2018" Action="Error" />
+    <Rule Id="NUnit2019" Action="Error" />
+    <Rule Id="NUnit2027" Action="Error" />
+    <Rule Id="NUnit2028" Action="Error" />
+    <Rule Id="NUnit2029" Action="Error" />
+    <Rule Id="NUnit2030" Action="Error" />
+    <Rule Id="NUnit2031" Action="Error" />
+    <Rule Id="NUnit2032" Action="Error" />
+    <Rule Id="NUnit2033" Action="Error" />
+    <Rule Id="NUnit2034" Action="Error" />
+    <Rule Id="NUnit2035" Action="Error" />
+    <Rule Id="NUnit2036" Action="Error" />
+    <Rule Id="NUnit2037" Action="Error" />
+    <Rule Id="NUnit2038" Action="Error" />
+    <Rule Id="NUnit2039" Action="Error" />
+    <Rule Id="NUnit2045" Action="Hidden" />
+    <Rule Id="NUnit3001" Action="Info" /> <!-- Possible Null Reference -->
+    <Rule Id="NUnit3002" Action="Info" /> <!-- NonNullableField/Property is Uninitialized -->
+  </Rules>
+</RuleSet>
